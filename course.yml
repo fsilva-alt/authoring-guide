@@ -1,0 +1,17 @@
+# Authoring guide — documentation for this template, written as a course.
+
+title: Authoring Guide
+subtitle: Everything you need to write, style and publish courses with this template.
+description: >
+  How courses are organised into parts and chapters, every element you can use in a
+  chapter, code blocks and images, custom styles and scripts, and how to publish.
+authors:
+  - Course Team
+updated: auto
+language: en
+
+accent: "#0f8f7e"
+numbering: part            # chapters are numbered 1.1, 1.2, 2.1 … in this course
+transition: slide
+highlight: true
+line_numbers: false

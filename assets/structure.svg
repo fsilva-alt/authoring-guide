@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" role="img" aria-labelledby="t d">
+  <title id="t">How a course is built</title>
+  <desc id="d">A course folder holds course.yml and parts; each part holds Markdown chapters. The build turns them into one self-contained index.html.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L9 5 L1 9 z" fill="#34c3ad"/>
+    </marker>
+  </defs>
+
+  <!-- background panel -->
+  <rect x="0" y="0" width="760" height="380" rx="4" fill="#161821"/>
+
+  <!-- heading -->
+  <text x="32" y="46" font-family="system-ui, sans-serif" font-size="19" font-weight="650" fill="#e8e9ef">How a course is built</text>
+  <text x="32" y="70" font-family="system-ui, sans-serif" font-size="13" fill="#9a9db0">Markdown chapters in, one self-contained page out</text>
+
+  <!-- course folder -->
+  <rect x="32" y="94" width="444" height="258" rx="4" fill="#1d2030" stroke="#2e3245" stroke-width="1.5"/>
+  <text x="52" y="124" font-family="ui-monospace, monospace" font-size="14" font-weight="600" fill="#e8e9ef">courses/my-course/</text>
+  <rect x="340" y="106" width="116" height="26" rx="3" fill="none" stroke="#34c3ad" stroke-width="1.5"/>
+  <text x="398" y="124" text-anchor="middle" font-family="ui-monospace, monospace" font-size="12" fill="#34c3ad">course.yml</text>
+
+  <!-- part 1 -->
+  <rect x="52" y="146" width="196" height="186" rx="3" fill="#252939"/>
+  <text x="68" y="170" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#34c3ad">PART 1</text>
+  <text x="68" y="190" font-family="ui-monospace, monospace" font-size="13" fill="#e8e9ef">01-basics/</text>
+  <rect x="68" y="204" width="164" height="30" rx="2" fill="#161821"/>
+  <text x="82" y="224" font-family="ui-monospace, monospace" font-size="12" fill="#e8e9ef">01-welcome.md</text>
+  <rect x="68" y="242" width="164" height="30" rx="2" fill="#161821"/>
+  <text x="82" y="262" font-family="ui-monospace, monospace" font-size="12" fill="#e8e9ef">02-structure.md</text>
+  <rect x="68" y="280" width="164" height="30" rx="2" fill="none" stroke="#3a3f55" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="82" y="300" font-family="ui-monospace, monospace" font-size="12" fill="#9a9db0">_part.yml</text>
+
+  <!-- part 2 -->
+  <rect x="260" y="146" width="196" height="186" rx="3" fill="#252939"/>
+  <text x="276" y="170" font-family="system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="1.2" fill="#34c3ad">PART 2</text>
+  <text x="276" y="190" font-family="ui-monospace, monospace" font-size="13" fill="#e8e9ef">02-writing/</text>
+  <rect x="276" y="204" width="164" height="30" rx="2" fill="#161821"/>
+  <text x="290" y="224" font-family="ui-monospace, monospace" font-size="12" fill="#e8e9ef">01-markdown.md</text>
+  <rect x="276" y="242" width="164" height="30" rx="2" fill="#161821"/>
+  <text x="290" y="262" font-family="ui-monospace, monospace" font-size="12" fill="#e8e9ef">02-elements.md</text>
+  <rect x="276" y="280" width="164" height="30" rx="2" fill="#161821"/>
+  <text x="290" y="300" font-family="ui-monospace, monospace" font-size="12" fill="#e8e9ef">03-code.md</text>
+
+  <!-- build arrow -->
+  <text x="512" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#9a9db0">build</text>
+  <line x1="488" y1="223" x2="534" y2="223" stroke="#34c3ad" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <!-- output file -->
+  <rect x="550" y="110" width="178" height="226" rx="3" fill="#1d2030" stroke="#34c3ad" stroke-width="2"/>
+  <text x="568" y="140" font-family="ui-monospace, monospace" font-size="12" fill="#9a9db0">dist/my-course/</text>
+  <text x="568" y="166" font-family="ui-monospace, monospace" font-size="17" font-weight="700" fill="#e8e9ef">index.html</text>
+  <line x1="568" y1="184" x2="710" y2="184" stroke="#2e3245" stroke-width="1.5"/>
+  <circle cx="574" cy="207" r="4" fill="#34c3ad"/>
+  <text x="588" y="212" font-family="system-ui, sans-serif" font-size="13" fill="#e8e9ef">every chapter</text>
+  <circle cx="574" cy="237" r="4" fill="#34c3ad"/>
+  <text x="588" y="242" font-family="system-ui, sans-serif" font-size="13" fill="#e8e9ef">styles + scripts</text>
+  <circle cx="574" cy="267" r="4" fill="#34c3ad"/>
+  <text x="588" y="272" font-family="system-ui, sans-serif" font-size="13" fill="#e8e9ef">images + fonts</text>
+  <circle cx="574" cy="297" r="4" fill="#34c3ad"/>
+  <text x="588" y="302" font-family="system-ui, sans-serif" font-size="13" fill="#e8e9ef">no server needed</text>
+</svg>
