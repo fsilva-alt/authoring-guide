@@ -30,7 +30,7 @@ The **sidebar button** on the left shows or hides the chapter list. On the right
 Chapters are grouped into **parts**, each with a counter of finished chapters such as **1/2**. Every chapter shows its number and estimated minutes, and gets a **checkmark** once you've finished it. Click a part's heading to fold it.
 :::
 :::card Back and Next
-Buttons at the bottom of each chapter move you through the course. **Next** shows the title of the chapter that follows and becomes **Finish** on the last one. Chapters slide in and out, and you can also use <kbd>←</kbd> and <kbd>→</kbd>.
+Buttons at the bottom of each chapter move you through the course. **Next** shows the title of the chapter that follows and becomes **Finish** on the last one. You can also use <kbd>←</kbd> and <kbd>→</kbd>.
 :::
 :::card About this course
 The panel at the top of the chapter list holds the course description, authors, last-updated date, total duration and a **Reset progress** button.

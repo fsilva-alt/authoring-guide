@@ -12,6 +12,6 @@ language: en
 
 accent: "#0f8f7e"
 numbering: part            # chapters are numbered 1.1, 1.2, 2.1 … in this course
-transition: slide
+transition: none
 highlight: true
 line_numbers: false

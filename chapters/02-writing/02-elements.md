@@ -16,7 +16,7 @@ Every example in this chapter shows the Markdown first, followed by the live res
 
 ## Callouts
 
-Callouts make a paragraph stand out. There are eight kinds, each with its own colour and icon:
+Callouts make a paragraph stand out. There are eight kinds, each with its own colour:
 
 ```markdown
 :::note
@@ -165,8 +165,8 @@ Three elements start closed and open when the reader clicks them. Each takes an 
 | Element | Default summary | Use it for |
 | --- | --- | --- |
 | `:::details` | "Details" | Extra background, long output, edge cases |
-| `:::hint` | "Hint" (with a light bulb) | A nudge in the right direction |
-| `:::solution` | "Show solution" (with a check mark) | The answer to an exercise |
+| `:::hint` | "Hint" | A nudge in the right direction |
+| `:::solution` | "Show solution" | The answer to an exercise |
 
 ```markdown
 :::details What does "self-contained" mean?
@@ -174,7 +174,7 @@ Everything the page needs is stored inside the HTML file itself: no extra files,
 :::
 
 :::hint Stuck? Open this
-Hints work just like details, with a different icon.
+Hints work just like details, with a different label.
 :::
 ```
 
@@ -183,7 +183,7 @@ Everything the page needs is stored inside the HTML file itself: no extra files,
 :::
 
 :::hint Stuck? Open this
-Hints work just like details, with a different icon.
+Hints work just like details, with a different label.
 :::
 
 When a reader prints a chapter, every collapsed section is opened so nothing is missing on paper.

@@ -62,7 +62,7 @@ styles:
 | `authors` | none | A list of names, shown as "Written by". For a single name you can write `author: Ada Lovelace`. |
 | `updated` | `auto` | The "Last updated" date. `auto` uses the newest chapter or `course.yml` file; you can also give a date such as `2026-10-04`, or `false` to hide it. |
 | `language` | `en` | Interface language (`en`, `pt` or `es`), also used for the page language and date format. |
-| `accent` | `#5b50e6` | Brand colour in light mode. |
+| `accent` | `#155e75` | Brand colour in light mode. |
 | `accent_dark` | a lighter tint of `accent` | Brand colour in dark mode. |
 | `logo` | none | Image shown before the title in the top bar; also the favicon unless you set one. |
 | `favicon` | a letter on the accent colour | Icon in the browser tab. |
@@ -70,7 +70,7 @@ styles:
 | `finish_url` | none | Where **Finish** takes the reader on the last chapter. Without it, a "you finished" message appears. |
 | `edit_url` | none | Adds an "Edit this chapter" link to each chapter. `{path}` is replaced with the chapter's path inside the course, `{id}` with its id. |
 | `numbering` | `course` | Chapter numbers: `course`, `part` or `none` (see [numbering](#numbering)). |
-| `transition` | `slide` | Animation between chapters: `slide`, `fade` or `none`. Readers who prefer reduced motion never see it. |
+| `transition` | `none` | Animation between chapters: `none`, `fade` or `slide`. Readers who prefer reduced motion never see it. |
 | `highlight` | `true` | Syntax highlighting for code blocks, done at build time. |
 | `line_numbers` | `false` | Show line numbers on code blocks by default. |
 | `embed_images` | `true` | Embed every image in the HTML file. With `false`, images stay as links and you must ship them next to the file. |

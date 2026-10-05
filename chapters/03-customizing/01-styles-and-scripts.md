@@ -62,17 +62,17 @@ The base theme takes all its colours, fonts and sizes from CSS custom properties
 | --- | --- | --- |
 | `--font-sans` | system font stack | All text |
 | `--font-mono` | system monospace stack | Code |
-| `--content-w` | `100%` | Maximum width of a chapter; the default fills the available area, a value such as `840px` gives a narrower reading column |
-| `--sidebar-w` | `304px` | Width of the chapter list |
-| `--rail-w` | `68px` | Width of the collapsed chapter list |
-| `--topbar-h` | `56px` | Height of the top bar |
-| `--radius`, `--radius-md`, `--radius-sm` | `4px`, `3px`, `2px` | Corner rounding of large, medium and small boxes (sharp by default) |
-| `--radius-pill`, `--radius-dot` | `2px`, `2px` | Buttons, chips and badges; chapter and step numbers. Set `999px` and `50%` for pills and circles |
-| `--bg`, `--surface`, `--surface-2`, `--surface-3` | light greys and white | Page background and box backgrounds |
+| `--content-w` | `85%` | Maximum width of a chapter, centred in the available area (always the full width on phones); `100%` fills the area, a value such as `68ch` gives a narrower reading column |
+| `--sidebar-w` | `18.5rem` | Width of the chapter list |
+| `--rail-w` | `4.25rem` | Width of the collapsed chapter list |
+| `--topbar-h` | `3.5rem` | Height of the top bar |
+| `--radius`, `--radius-md`, `--radius-sm` | `0`, `0`, `.25rem` | Corner rounding of images, document blocks (code, callouts, tables …) and small controls |
+| `--radius-pill`, `--radius-dot` | `.25rem`, `.25rem` | Buttons and badges; chapter and step numbers |
+| `--bg`, `--surface`, `--surface-2`, `--surface-3` | white and light greys | Page background, code and hover backgrounds |
 | `--text`, `--text-2`, `--text-3` | near-black to grey | Main, secondary and muted text |
 | `--border`, `--border-strong` | light greys | Lines and outlines |
 | `--c-note`, `--c-tip`, `--c-warning`, `--c-danger`, `--c-exercise` | blue, green, amber, red, teal | Callout colours |
-| `--code-bg`, `--code-hl` | near-white, accent tint | Code block background and highlighted lines |
+| `--code-bg`, `--code-hl` | light grey, accent tint | Code block background and highlighted lines |
 | `--tk-keyword`, `--tk-string`, `--tk-comment` … | | Syntax highlighting colours |
 
 Dark mode sets its own values for the colour tokens on `:root[data-theme="dark"]`. The reader's choice is stored on the page itself, so override dark colours with that selector rather than a `prefers-color-scheme` media query:
